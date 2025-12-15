@@ -1,5 +1,7 @@
-result = int(input("Enter the Result number: "))
+result = int(input("Enter result: "))
 
-original_number = (result - 16) // 10
+result = result / 2
+result = result - 8
+result = result / 5
 
-print(f"Intended number: {original_number}")
+print("intended number was:", int(result))
