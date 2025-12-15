@@ -1,9 +1,8 @@
-last_first = input("Your last name, first name? ")
-last_name, first_name = last_first.split(", ")
-
+first_name = input("Your first name? ")
+last_name = input("Your last name? ")
 age = input("How old are you? ")
 phone = input("Your phone number? ")
 
-print(f"{first_name} {last_name}")
-print(age)
-print(phone)
+print("Your first name, last name:", first_name, last_name)
+print("Your age:", age)
+print("Your phone number:", phone)
